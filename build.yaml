@@ -21,7 +21,8 @@
 ---
 include:
   - board: nice_nano_v2
-    shield: corne_central_dongle dongle_display
+    shield: corne_central_dongle dongle_display-091-oled
+    cmake-args: -DCONFIG_ZMK_STUDIO=y
   - board: nice_nano_v2
     shield: corne_peripheral_left
   - board: nice_nano_v2
