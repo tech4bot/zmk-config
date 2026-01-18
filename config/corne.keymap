@@ -27,14 +27,16 @@
         m_copy: m_copy {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kt LEFT_COMMAND &kp C>;
+            bindings = <&kp LEFT_COMMAND &kp C>, <&macro_tap>;
+
             label = "M_COPY";
         };
 
         m_paste: m_paste {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LEFT_COMMAND &kp V>;
+            bindings = <&kp LEFT_COMMAND &kp V>, <&macro_tap>;
+
             label = "M_PASTE";
         };
     };
