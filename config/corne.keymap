@@ -33,7 +33,7 @@
                 <&macro_tap>,
                 <&kp C>,
                 <&macro_release>,
-                <&kp LEFT_COMMAND>;
+                <&kp LEFT_CONTROL>;
 
             label = "M_COPY";
         };
@@ -47,7 +47,7 @@
                 <&macro_tap>,
                 <&kp V>,
                 <&macro_release>,
-                <&kp LEFT_COMMAND>;
+                <&kp LEFT_CONTROL>;
 
             label = "M_PASTE";
         };
