@@ -69,7 +69,14 @@
         paste_win: paste_win {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&none>;
+            bindings =
+                <&macro_press>,
+                <&kp LEFT_CONTROL>,
+                <&macro_tap>,
+                <&kp V>,
+                <&macro_release>,
+                <&kp LEFT_CONTROL>;
+
             label = "PASTE_WIN";
         };
     };
